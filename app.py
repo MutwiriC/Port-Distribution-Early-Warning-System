@@ -183,7 +183,7 @@ def main():
     st.markdown("""
     <div style="margin-bottom: 24px;">
         <h1 style="color: white; margin: 0; font-size: 28px;">NSE Blue-Chips Stock Predictor</h1>
-        <p style="color: #6b7280; margin: 4px 0 0 0;"> Next-Day Price Predictions</p>
+        <p style="color: #6b7280; margin: 4px 0 0 0;">Next-Day Price Predictions</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -277,7 +277,6 @@ def main():
         st.line_chart(chart_data)
         
     with tab3:
-        # RESTORED PREMIUM DETAILS TABLE
         st.markdown('<p style="font-size: 18px; font-weight: 600; color: #ffffff; margin: 24px 0 16px 0;">Today\'s Statistics</p>', unsafe_allow_html=True)
         st.markdown(f"""
         <table style="width: 100%; border-collapse: separate; border-spacing: 0; margin-top: 16px;">
@@ -307,6 +306,16 @@ def main():
             </tr>
         </table>
         """, unsafe_allow_html=True)
+
+    # FOOTER DISCLAIMER
+    st.markdown("""
+    <div style="margin-top: 40px; padding: 20px; background: rgba(59, 130, 246, 0.05); border-radius: 12px; border: 1px solid rgba(59, 130, 246, 0.1); text-align: center;">
+        <p style="color: #60a5fa; font-size: 13px; margin: 0; line-height: 1.6;">
+            <strong>Notice:</strong> This is a demo model for proof of concept. 
+            With live NSE data integration, the system will provide real-time predictive support for traders.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
     main()
