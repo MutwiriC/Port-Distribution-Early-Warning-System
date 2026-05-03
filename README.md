@@ -266,5 +266,5 @@ joblib
 
 ## Team
 
-Class project — Nairobi, 2025.
+Moringa School Class project.
 Data source: Nairobi Securities Exchange (NSE) daily market reports, 2022–2025.
