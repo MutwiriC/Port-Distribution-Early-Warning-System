@@ -311,8 +311,9 @@ def main():
     st.markdown("""
     <div style="margin-top: 40px; padding: 20px; background: rgba(59, 130, 246, 0.05); border-radius: 12px; border: 1px solid rgba(59, 130, 246, 0.1); text-align: center;">
         <p style="color: #60a5fa; font-size: 13px; margin: 0; line-height: 1.6;">
-            <strong>Notice:</strong> This is a demo model for proof of concept. 
-            With live NSE data integration, the system will provide real-time predictive support for traders.
+            <strong>Disclaimer:</strong> This tool is for educational purposes only and is not approved by any regulatory authority.
+                         It does not constitute financial advice or recommendations.
+                         Users should conduct their own research or consult licensed financial advisors before making investment decisions.
         </p>
     </div>
     """, unsafe_allow_html=True)
